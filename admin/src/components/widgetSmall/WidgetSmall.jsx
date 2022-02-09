@@ -22,7 +22,7 @@ export default function WidgetSmall() {
     }
     getNewUsers()
   },[newUsers])
-  console.log(setNewUsers);
+  // console.log(setNewUsers);
   return <div className="widgetSm">
     <span className="widgetSmTitle">New Join Members</span>
     <ul className="widgetSmList">
